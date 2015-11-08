@@ -1,0 +1,147 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+*::-moz-selection {
+	color: #FFF;
+	text-shadow: none;
+	background: none repeat scroll 0% 0% #F34B0A;
+}
+a {
+	color: #F34B0A;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #F34B0A;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - OVERALL PAGE =============== */
+/* =============== MENU - MAIN MENU =============== */
+div.jsn-modulecontainer ul.menu-mainmenu > li a .jsn-menutitle:before {
+	background: #F34B0A;
+}
+div.jsn-modulecontainer ul.menu-mainmenu > li > a:hover:before,
+div.jsn-modulecontainer ul.menu-mainmenu > li > a.active:before {
+    color: #F34B0A;
+}
+div.jsn-modulecontainer ul.menu-mainmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu li.active > a {
+	color: #F34B0A;
+}
+/* =============== MODULE - POSITION TOOLBAR =============== */
+#jsn-menu .jsn-modulecontainer.display-dropdown:hover h3.jsn-moduletitle {
+	color: #F34B0A;
+}
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+#jsn-page .link-action {
+	color: #F34B0A;
+	border-bottom: 1px solid #F34B0A;
+}
+#jsn-page .link-action:hover {
+	background-color: #F34B0A;
+}
+/* ----- HIGHTLIGHT LINK ----- */
+li.jsn-highlight a span.jsn-menutitle {
+	color: #F34B0A;
+}
+/* ----- COLOR BUTTON ----- */
+.link-button.button-color {
+	background-color: #F34B0A;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #F34B0A;
+	border-right: 1px solid #9369a4;
+}
+table.style-colorheader thead th:first-child {
+	border-left: 1px solid #F34B0A;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes td,
+table.style-colorstripes th {
+	border-bottom: 1px solid #6d5079;
+	border-right: 1px solid #6d5079;
+}
+table.style-colorstripes thead th {
+	background-color: #F34B0A;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #F34B0A;
+}
+table.style-colorstripes tbody tr {
+	background-color: #d3ade2;
+}
+table.style-colorstripes tbody .highlight {
+	background-color: #ecd9f4;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #F34B0A;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #d5b4e2;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #73547f;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #d3a8e4;
+}
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+	border-left: none;
+	border-right: 1px solid #6d5079;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes tfoot td {
+	background-color: #F34B0A;
+}
+.sectiontableheader {
+	background-color: #5f9936;
+}
+/* ----- GREY STRIPES TABLE ----- */
+table.style-greystripes thead th.highlight {
+	background-color: #F34B0A;
+}
+/* ============================== MODULE STYLES ============================== */
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+h3.jsn-moduletitle {
+	color: #F34B0A;
+}
+div.richbox-1 h3.jsn-moduletitle span {
+	border-color: #F34B0A;
+}
+div.lightbox-1 h3.jsn-moduletitle span:before {
+	background: #F34B0A;
+}
+/* ========== DISPLAY INLINE/DROP DOWN MODULR ========== */
+.jsn-color-violet .jsn-modulecontainer[class*="display-"] form .search input.inputbox:focus + [class*="jsn-icon"] {
+	color: #F34B0A;
+}
+/* ============================== SIDE-MENU/TREE MENU/TOP MENU STYLES ============================== */
+/* ----- HOVER/ACTIVE STATE ----- */
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu li.active > a,
+div.jsn-modulecontainer ul.menu-treemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-treemenu li.active > a,
+div.jsn-modulecontainer ul.menu-topmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-topmenu li.active > a {
+	color: #F34B0A;
+}
+
+div.jsn-modulecontainer ul.menu-sidemenu li a:before {
+	background: #F34B0A;
+}
+/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
+/* =============== JOOMLA! EXTENSIONS - COM_CONTENT =============== */
+/* ----- SECTION / CATEGORY BLOG LAYOUT ----- */
+/* PAGE PAGINATION */
+ul.jsn-pagination li.navigation-page span {
+	background-color: #F34B0A;
+}
