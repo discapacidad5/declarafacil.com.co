@@ -12,9 +12,9 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'root';
-	public $password = 'toor';
+	public $host = 'mydeclarafacil.db.11569157.hostedresource.com';
+	public $user = 'mydeclarafacil';
+	public $password = 'D3c14r4!';
 	public $db = 'mydeclarafacil';
 	public $dbprefix = 'df_';
 	public $live_site = '';
